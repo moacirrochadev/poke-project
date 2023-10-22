@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icone do topo -->
+    <link rel="shortcut icon" href="/assets/imagens/pokebola.png" type="image/x-icon">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS Card -->
+    <link rel="stylesheet" href="./assets/css/cardstyle.css">
+    <!-- <link rel="stylesheet" href="/assets/css/cardstyle.css"> -->
+
+    <!-- Fonte Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <title>Bulbasaur</title>
+    <script src="./card.js" defer></script>
+</head>
+
+<body>
+
+    <div class="card-content">
+        <div class="barra_titulo">
+        <div class="title">
+            <p><b>Bulbasaur</b></p>
+        </div>
+        <div class="number">
+            <p>#001</p>
+        </div>
+    </div>
+
+    <div class="foto">
+        <img src="./assets/imagens/bulbasaur.gif" alt="" width="200px">
+    </div>
+
+    <div class="tab-container">
+        <button class="tab-button active" onclick="openTab(event, 'tab1')">About</button>
+        <button class="tab-button" onclick="openTab(event, 'tab2')">Base Stats</button>
+        <button class="tab-button" onclick="openTab(event, 'tab3')">Evolution</button>
+        <button class="tab-button" onclick="openTab(event, 'tab3')">Moves</button>
+
+        <div id="tab1" class="tab-content">
+            <p>There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.</p>
+        </div>
+        <div id="tab2" class="tab-content">
+            <p></p>
+        </div>
+        <div id="tab3" class="tab-content">
+            <p></p>
+        </div>
+        <div id="tab3" class="tab-content">
+            <p></p>
+        </div>
+    </div>
+    <div class="voltar">
+        <a href="index.html">Back</a>
+    </div>
+
+</body>
+
+</html>
